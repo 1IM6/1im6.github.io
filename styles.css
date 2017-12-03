@@ -1,0 +1,88 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat');
+html, *, *:before, *:after {
+	box-sizing: border-box;
+	
+}
+
+* { margin: 0; padding: 0; }
+
+h1,h2,h3,h4,h5,h6{font-weight: 200;}
+
+body{
+	font-family: 'Montserrat', sans-serif;
+	background: url("https://loopnewslive.blob.core.windows.net/liveimage/sites/default/files/2017-11/PrJZP9TOwO.jpg") no-repeat;
+	background-size: cover;
+	background-attachment: fixed;
+	color:white;
+}
+
+.noselect {
+	-webkit-touch-callout: none; /* iOS Safari */
+	  -webkit-user-select: none; /* Safari */
+	   -khtml-user-select: none; /* Konqueror HTML */
+		 -moz-user-select: none; /* Firefox */
+		  -ms-user-select: none; /* Internet Explorer/Edge */
+			  user-select: none; /* Non-prefixed version, currently
+									supported by Chrome and Opera */
+  }
+
+section{width: 100%;}
+
+.header{
+	width: 100%;
+}
+
+.header-title{
+	font-size:30px;
+	background-color: rgba(1,1,1,0.9);
+	font-weight: 200;
+}
+
+.header-sub{
+	padding-top:1%;
+	padding-bottom:1%;
+	background-color: rgba(1,1,1,0.5);
+	font-weight: 200;
+
+}
+
+.blob{
+	margin-top: 5%;
+	margin-left: 15%; 
+	margin-right:15%;
+	text-align: center;
+	padding:2% 5%; 
+
+	background-color: rgba(1,1,1,0.8);
+}
+
+.blob-txt{
+	font-size:15px;
+}
+
+.info{
+	margin-top: 5%;
+	margin-left: 15%; 
+	margin-right:15%;
+	text-align: center;
+	padding:2% 5%; 
+
+	background-color: rgba(1,1,1,0.5);
+}
+
+.info-txt{
+	font-size:15px;
+}
+
+footer{
+	
+	text-align: center;
+	padding-top: 2%;
+	padding-bottom:2%;
+	font-size: 15px;
+	color: black;
+	background-color: white;
+
+    width: 100%;
+    overflow:hidden;
+}
